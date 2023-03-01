@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non molestiae quaerat hic sequi, asperiores ratione debitis sint voluptatibus labore aliquid reiciendis, placeat dolores vel doloribus maiores pariatur. Fugiat, quaerat ab?</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag001.html">Segunda página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Terceira página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At qui perspiciatis rem non voluptatum omnis! Provident nulla a officiis tempora, itaque ea nisi quaerat, eum, minus aliquam ipsum tempore doloribus.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptatibus vero nihil ratione? Quas, itaque deleniti voluptate voluptatem sed quisquam inventore, vitae libero dolore alias possimus commodi ipsam ipsa. Iure?</p><img src='imagens/perfil.png'>">
+    <p>Infelizmente seu navegador nunca vai poder suportar esse conteudo</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti nisi ad id soluta quos. Culpa, aliquid! Autem, quibusdam dolor officiis minima in unde ducimus hic quidem, distinctio vero saepe! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus exercitationem quisquam, optio temporibus nam quidem? Ut nihil, explicabo magnam exercitationem voluptas earum aut adipisci, laborum totam esse beatae vitae ducimus.</p>
+</body>
+</html>
